@@ -8,6 +8,10 @@
 
 
 #import <Photos/Photos.h>
+#import "Cordova/Cordova.h"
+#if defined(__CORDOVA_8_0_0)
+#import <UIKit/UITableViewCell.h>
+#endif
 
 
 @interface GMAlbumsViewCell : UITableViewCell

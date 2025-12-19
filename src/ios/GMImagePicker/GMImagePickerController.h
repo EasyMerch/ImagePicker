@@ -10,6 +10,10 @@
 #import <Photos/Photos.h>
 
 #import "GMFetchItem.h"
+#import "Cordova/Cordova.h"
+#if defined(__CORDOVA_8_0_0)
+#import <UIKit/UIViewController.h>
+#endif
 
 //This is the default image picker size!
 //static CGSize const kPopoverContentSize = {320, 480};
