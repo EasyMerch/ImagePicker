@@ -1,4 +1,6 @@
 #import "UIImage+fixOrientation.h"
+#import "UIKit/UIImage.h"
+#import "UIKit/UIGraphics.h"
 
 @implementation UIImage (fixOrientation)
 
