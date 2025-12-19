@@ -1,6 +1,10 @@
 #import "UIImage+fixOrientation.h"
+#import "Cordova/Cordova.h"
+#if __CORDOVA_8_0_0
 #import "UIKit/UIImage.h"
 #import "UIKit/UIGraphics.h"
+#endif
+
 
 @implementation UIImage (fixOrientation)
 
